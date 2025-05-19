@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #b33636;
+    background: linear-gradient(#F17D7D, #D20C0C);
 }
 
 .wrapper {
