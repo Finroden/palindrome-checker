@@ -81,3 +81,74 @@ header p {
     pointer-events: auto;
 }
 
+@media (max-width: 600px) {
+    .wrapper {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .inputs input,
+    .inputs button {
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .txt {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .wrapper {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    .inputs input,
+    .inputs button {
+        height: 55px;
+        font-size: 16px;
+    }
+
+    .txt {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .wrapper {
+        padding: 25px 30px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    .inputs input,
+    .inputs button {
+        height: 60px;
+        font-size: 17px;
+    }
+
+    .txt {
+        font-size: 16px;
+    }
+}
